@@ -1,0 +1,22 @@
+{
+  "name": "fd",
+  "version": "1.0.0",
+  "description": "This app displays the name of the requester of a freshdesk ticket in the ticket_sidebar placeholder",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./app/build && babel ./app --out-dir ./app/build --presets react-app/prod",
+    "start": "npm run build && fdk run",
+    "deploy": "fdk pack --skip-validation lint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "util": "node scripts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "rimraf": "^3.0.2"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "venusaurUrl": {
+    "display_name": "Venusaur URL",
+    "description": "Venusaur Base URL",
+    "type": "text",
+    "required": true
+  },
+  "mewUrl": {
+    "display_name": "Mew URL",
+    "description": "Mew Base URL",
+    "type": "text",
+    "required": true
+  },
+  "flareonUrl": {
+    "display_name": "Flareon URL",
+    "description": "Flareon Base URL",
+    "type": "text",
+    "required": true,
+    "default_value": "http://localhost:5005"
+  },
+  "x-api-key": {
+    "display_name": "x-api-key",
+    "description": "x-api-key",
+    "type": "text",
+    "required": true,
+    "secure": true
+  },
+  "clientId": {
+    "display_name": "clientId",
+    "description": "clientId",
+    "type": "text",
+    "required": true,
+    "secure": true
+  },
+  "clientSecret": {
+    "display_name": "clientSecret",
+    "description": "clientSecret",
+    "type": "text",
+    "required": true,
+    "secure": true
+  },
+  "jwtSecret": {
+    "display_name": "Freshdesk Identifier",
+    "description": "JWT Secret",
+    "type": "text",
+    "required": true,
+    "secure": true
+  }
+}
