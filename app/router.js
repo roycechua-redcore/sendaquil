@@ -41,7 +41,7 @@ class Router extends React.Component {
 		switch (route) {
 			default:
 				return (
-					null
+					<div>hello</div>
 				);
 		}
 	}
