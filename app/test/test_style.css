@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+th, td {
+    text-align: center;
+
+}
+
+th {
+    width: 11vw;
+}
+
+.container-style {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 4vw;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.search, .title {
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.search-input-field {
+    width: 25vw;
+    height: 5vh;
+    font-size: 1vw;
+    font-weight: 400;
+    padding-left: 1vw;
+}
+
+.reset {
+    outline: none;
+    width: 5vw;
+    height: 5vh;
+    font-size: 1vw;
+    font-weight: 400;
+    margin-left: 1vw;
+    border-style: solid;
+    border-width: 0.5;
+    border-color: #007bff;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #007bff;
+}
+
+.search-button {
+    outline: none;
+    width: 8vw;
+    height: 5vh;
+    font-size: 1vw;
+    font-weight: 400;
+    margin-left: 1vw;
+    border-width: 0;
+    border-radius: 2px;
+    background-color: #007bff;
+    color: white;
+}
+
+.reset:focus, .search-button:focus {
+    outline: none;
+}
+
+.reset:hover, .search-button:hover {
+    opacity: 0.7;
+}
+
+.status {
+    color: #fe5045;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.loader {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+}
+
+.spinner-border {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: .25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    /* -webkit-animation: spinner-border .75s linear infinite; */
+    animation: spinner-border .75s linear infinite;
+}
+
+.loading-text {
+    margin-left: 1vw;
+    font-size: 0.8vw;
+    font-weight: 600;
+    color: black;
+}
+
+.text-primary {
+    color: #007bff!important;
+}
+
+#table-style {
+    width: 100%;
+}
+
+.account-number {
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-align: right;
+}
+
+.account-number-val, .cust-id-val {
+    font-weight: normal;
+}
+
+.cust-id {
+    font-size: 1vw;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.div-style {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.policy-number {
+    color: blue;
+    text-decoration: underline;
+}
